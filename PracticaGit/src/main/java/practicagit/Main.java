@@ -6,6 +6,8 @@ import java.util.Scanner;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.swing.JOptionPane;
+
+import practicagit.basketball.basketballGame;
 import practicagit.hangman.hangmanGame;
 import practicagit.juegocartas.JuegoCartas;
 
@@ -55,6 +57,8 @@ public class Main {
                             gameOne.gameStarted();
                             break;
                         case 2:
+                            basketballGame gameTwo = new basketballGame();
+                            gameTwo.initialazing();
                             // Basketball
                             break;
                         case 3:
