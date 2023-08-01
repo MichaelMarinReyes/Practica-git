@@ -40,7 +40,6 @@ public class gameStages {
                 playerTwoStart(playerTwo, playerOne);
                 playerOneStart(playerOne, playerTwo);
             }
-
         }
 
         if (pointsPlayerOne == pointsPlayerTwo) {
@@ -61,7 +60,7 @@ public class gameStages {
         int probabilitySucces;
         boolean errorFormat = false;
 
-        while (!errorFormat) {
+        //while (!errorFormat) {
             try {
                 System.out.println("Turno de " + namePlayerOne);
 
@@ -149,7 +148,7 @@ public class gameStages {
                 String limiarBuffer = read.nextLine();
                 System.out.println("\nERROR\n");
             }
-        }
+        //}
     }
 
     public void playerTwoStart(String namePlayerTwo, String namePlayerOne) { // acciones por si empieza el jugador 2
@@ -158,7 +157,7 @@ public class gameStages {
         boolean errorFormat = false;
         int probabilitySucces;
 
-        while (!errorFormat) {
+       // while (!errorFormat) {
             try {
                 System.out.println("Turno de " + namePlayerTwo);
 
@@ -246,7 +245,7 @@ public class gameStages {
                 String limiarBuffer = read.nextLine();
                 System.out.println("\nERROR\n");
             }
-        }
+        //}
     }
 
     public void realizarTiroLibre(String playerName, String playerNameOpponent) {
